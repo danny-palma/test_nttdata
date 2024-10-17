@@ -1,0 +1,120 @@
+[INFO] [2024-10-17 11:46:12] - Starting ClientServiceAplication using Java 22.0.2 with PID 21876 (G:\danie\repos\test_nttdata\backend\demo_nttdata\target\classes started by danie in G:\danie\repos\test_nttdata\backend\demo_nttdata)
+[INFO] [2024-10-17 11:46:12] - No active profile set, falling back to 1 default profile: "default"
+[INFO] [2024-10-17 11:46:13] - Tomcat initialized with port 8090 (http)
+[INFO] [2024-10-17 11:46:13] - Initializing ProtocolHandler ["http-nio-8090"]
+[INFO] [2024-10-17 11:46:13] - Starting service [Tomcat]
+[INFO] [2024-10-17 11:46:13] - Starting Servlet engine: [Apache Tomcat/10.1.30]
+[INFO] [2024-10-17 11:46:13] - Initializing Spring embedded WebApplicationContext
+[INFO] [2024-10-17 11:46:13] - Root WebApplicationContext: initialization completed in 916 ms
+[INFO] [2024-10-17 11:46:13] - Starting ProtocolHandler ["http-nio-8090"]
+[INFO] [2024-10-17 11:46:13] - Tomcat started on port 8090 (http) with context path '/'
+[INFO] [2024-10-17 11:46:13] - Started ClientServiceAplication in 1.747 seconds (process running for 2.116)
+[INFO] [2024-10-17 14:03:34] - Starting ClientServiceAplication using Java 22.0.2 with PID 13260 (G:\danie\repos\test_nttdata\backend\demo_nttdata\target\classes started by danie in G:\danie\repos\test_nttdata\backend\demo_nttdata)
+[INFO] [2024-10-17 14:03:34] - No active profile set, falling back to 1 default profile: "default"
+[INFO] [2024-10-17 14:03:35] - Tomcat initialized with port 8090 (http)
+[INFO] [2024-10-17 14:03:35] - Initializing ProtocolHandler ["http-nio-8090"]
+[INFO] [2024-10-17 14:03:35] - Starting service [Tomcat]
+[INFO] [2024-10-17 14:03:35] - Starting Servlet engine: [Apache Tomcat/10.1.30]
+[INFO] [2024-10-17 14:03:35] - Initializing Spring embedded WebApplicationContext
+[INFO] [2024-10-17 14:03:35] - Root WebApplicationContext: initialization completed in 870 ms
+[INFO] [2024-10-17 14:03:36] - Starting ProtocolHandler ["http-nio-8090"]
+[INFO] [2024-10-17 14:03:36] - Tomcat started on port 8090 (http) with context path '/'
+[INFO] [2024-10-17 14:03:36] - Started ClientServiceAplication in 1.804 seconds (process running for 2.203)
+[INFO] [2024-10-17 14:03:53] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] [2024-10-17 14:03:53] - Initializing Servlet 'dispatcherServlet'
+[INFO] [2024-10-17 14:03:53] - Completed initialization in 1 ms
+[INFO] [2024-10-17 14:03:53] - Incoming Request: GET /api/clients/query | Remote Address: 0:0:0:0:0:0:0:1
+[WARN] [2024-10-17 14:03:53] - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'documentType' for method parameter type String is not present]
+[INFO] [2024-10-17 14:03:53] - Outgoing Response: /api/clients/query | Status: 400
+[INFO] [2024-10-17 14:03:53] - Response Time: 15 ms
+[INFO] [2024-10-17 14:03:53] - Incoming Request: GET /error | Remote Address: 0:0:0:0:0:0:0:1
+[INFO] [2024-10-17 14:03:53] - Outgoing Response: /error | Status: 400
+[INFO] [2024-10-17 14:03:53] - Response Time: 46 ms
+[INFO] [2024-10-17 14:04:36] - Incoming Request: GET /api/clients/query | Remote Address: 0:0:0:0:0:0:0:1
+[WARN] [2024-10-17 14:04:36] - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'documentType' for method parameter type String is not present]
+[INFO] [2024-10-17 14:04:36] - Outgoing Response: /api/clients/query | Status: 400
+[INFO] [2024-10-17 14:04:36] - Response Time: 1 ms
+[INFO] [2024-10-17 14:04:36] - Incoming Request: GET /error | Remote Address: 0:0:0:0:0:0:0:1
+[INFO] [2024-10-17 14:04:36] - Outgoing Response: /error | Status: 400
+[INFO] [2024-10-17 14:04:36] - Response Time: 1 ms
+[INFO] [2024-10-17 14:05:17] - Incoming Request: GET /api/clients/query | Remote Address: 0:0:0:0:0:0:0:1
+[WARN] [2024-10-17 14:05:17] - Malformed request from IP: 0:0:0:0:0:0:0:1 - Document type: c, Document number: 23.445.322
+[INFO] [2024-10-17 14:05:17] - Outgoing Response: /api/clients/query | Status: 400
+[INFO] [2024-10-17 14:05:17] - Response Time: 8 ms
+[INFO] [2024-10-17 14:14:08] - Starting ClientServiceAplication using Java 22.0.2 with PID 20632 (G:\danie\repos\test_nttdata\backend\demo_nttdata\target\classes started by danie in G:\danie\repos\test_nttdata\backend\demo_nttdata)
+[INFO] [2024-10-17 14:14:08] - No active profile set, falling back to 1 default profile: "default"
+[INFO] [2024-10-17 14:14:09] - Tomcat initialized with port 8090 (http)
+[INFO] [2024-10-17 14:14:09] - Initializing ProtocolHandler ["http-nio-8090"]
+[INFO] [2024-10-17 14:14:09] - Starting service [Tomcat]
+[INFO] [2024-10-17 14:14:09] - Starting Servlet engine: [Apache Tomcat/10.1.30]
+[INFO] [2024-10-17 14:14:09] - Initializing Spring embedded WebApplicationContext
+[INFO] [2024-10-17 14:14:09] - Root WebApplicationContext: initialization completed in 874 ms
+[INFO] [2024-10-17 14:14:09] - Starting ProtocolHandler ["http-nio-8090"]
+[INFO] [2024-10-17 14:14:09] - Tomcat started on port 8090 (http) with context path '/'
+[INFO] [2024-10-17 14:14:09] - Started ClientServiceAplication in 1.686 seconds (process running for 2.064)
+[INFO] [2024-10-17 14:14:28] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] [2024-10-17 14:14:28] - Initializing Servlet 'dispatcherServlet'
+[INFO] [2024-10-17 14:14:28] - Completed initialization in 1 ms
+[INFO] [2024-10-17 14:14:28] - Incoming Request: GET /api/clients/query | Remote Address: 0:0:0:0:0:0:0:1
+[WARN] [2024-10-17 14:14:28] - Malformed request from IP: 0:0:0:0:0:0:0:1 - Document type: c, Document number: 23.445.322
+[INFO] [2024-10-17 14:14:28] - Outgoing Response: /api/clients/query | Status: 400
+[INFO] [2024-10-17 14:14:28] - Response Time: 25 ms
+[INFO] [2024-10-17 14:15:35] - Incoming Request: GET /api/clients/query | Remote Address: 0:0:0:0:0:0:0:1
+[WARN] [2024-10-17 14:15:35] - Malformed request from IP: 0:0:0:0:0:0:0:1 - Document type: c, Document number: 23.445.322
+[INFO] [2024-10-17 14:15:35] - Outgoing Response: /api/clients/query | Status: 400
+[INFO] [2024-10-17 14:15:35] - Response Time: 2 ms
+[INFO] [2024-10-17 14:15:46] - Incoming Request: GET /api/clients/query | Remote Address: 0:0:0:0:0:0:0:1
+[WARN] [2024-10-17 14:15:46] - Malformed request from IP: 0:0:0:0:0:0:0:1 - Document type: c, Document number: 23.445.322
+[INFO] [2024-10-17 14:15:46] - Outgoing Response: /api/clients/query | Status: 400
+[INFO] [2024-10-17 14:15:46] - Response Time: 2 ms
+[INFO] [2024-10-17 14:18:31] - Incoming Request: GET /api/clients/query | Remote Address: 0:0:0:0:0:0:0:1
+[WARN] [2024-10-17 14:18:31] - Malformed request from IP: 0:0:0:0:0:0:0:1 - Document type: c, Document number: 23.445.322
+[INFO] [2024-10-17 14:18:31] - Outgoing Response: /api/clients/query | Status: 400
+[INFO] [2024-10-17 14:18:31] - Response Time: 2 ms
+[INFO] [2024-10-17 14:19:06] - Incoming Request: GET /api/clients/query | Remote Address: 0:0:0:0:0:0:0:1
+[WARN] [2024-10-17 14:19:06] - Malformed request from IP: 0:0:0:0:0:0:0:1 - Document type: c, Document number: 23445.322
+[INFO] [2024-10-17 14:19:06] - Outgoing Response: /api/clients/query | Status: 400
+[INFO] [2024-10-17 14:19:06] - Response Time: 2 ms
+[INFO] [2024-10-17 14:19:26] - Incoming Request: GET /api/clients/query | Remote Address: 0:0:0:0:0:0:0:1
+[WARN] [2024-10-17 14:19:26] - Malformed request from IP: 0:0:0:0:0:0:0:1 - Document type: c, Document number: 23445.322
+[INFO] [2024-10-17 14:19:26] - Outgoing Response: /api/clients/query | Status: 400
+[INFO] [2024-10-17 14:19:26] - Response Time: 2 ms
+[INFO] [2024-10-17 14:19:36] - Incoming Request: GET /api/clients/query | Remote Address: 0:0:0:0:0:0:0:1
+[INFO] [2024-10-17 14:19:36] - Outgoing Response: /api/clients/query | Status: 200
+[INFO] [2024-10-17 14:19:36] - Response Time: 27 ms
+[INFO] [2024-10-17 14:20:12] - Incoming Request: GET /api/clients/query | Remote Address: 0:0:0:0:0:0:0:1
+[INFO] [2024-10-17 14:20:12] - Outgoing Response: /api/clients/query | Status: 200
+[INFO] [2024-10-17 14:20:12] - Response Time: 2 ms
+[INFO] [2024-10-17 14:20:56] - Incoming Request: GET /api/clients/query | Remote Address: 0:0:0:0:0:0:0:1
+[INFO] [2024-10-17 14:20:56] - Outgoing Response: /api/clients/query | Status: 200
+[INFO] [2024-10-17 14:20:56] - Response Time: 2 ms
+[INFO] [2024-10-17 14:28:23] - Incoming Request: GET /api/clients/query | Remote Address: 0:0:0:0:0:0:0:1
+[INFO] [2024-10-17 14:28:23] - Outgoing Response: /api/clients/query | Status: 200
+[INFO] [2024-10-17 14:28:23] - Response Time: 2 ms
+[INFO] [2024-10-17 14:28:39] - Incoming Request: GET /api/clients/query | Remote Address: 0:0:0:0:0:0:0:1
+[INFO] [2024-10-17 14:28:39] - Outgoing Response: /api/clients/query | Status: 200
+[INFO] [2024-10-17 14:28:39] - Response Time: 2 ms
+[INFO] [2024-10-17 14:35:07] - Incoming Request: GET /api/clients/query | Remote Address: 0:0:0:0:0:0:0:1
+[INFO] [2024-10-17 14:35:07] - Outgoing Response: /api/clients/query | Status: 404
+[INFO] [2024-10-17 14:35:07] - Response Time: 1 ms
+[INFO] [2024-10-17 14:35:07] - Incoming Request: GET /api/clients/query | Remote Address: 0:0:0:0:0:0:0:1
+[INFO] [2024-10-17 14:35:07] - Outgoing Response: /api/clients/query | Status: 404
+[INFO] [2024-10-17 14:35:07] - Response Time: 1 ms
+[INFO] [2024-10-17 14:35:07] - Incoming Request: GET /api/clients/query | Remote Address: 0:0:0:0:0:0:0:1
+[INFO] [2024-10-17 14:35:07] - Outgoing Response: /api/clients/query | Status: 404
+[INFO] [2024-10-17 14:35:07] - Response Time: 1 ms
+[INFO] [2024-10-17 14:35:08] - Incoming Request: GET /api/clients/query | Remote Address: 0:0:0:0:0:0:0:1
+[INFO] [2024-10-17 14:35:08] - Outgoing Response: /api/clients/query | Status: 404
+[INFO] [2024-10-17 14:35:08] - Response Time: 1 ms
+[INFO] [2024-10-17 14:36:21] - Incoming Request: GET /api/clients/query | Remote Address: 0:0:0:0:0:0:0:1
+[INFO] [2024-10-17 14:36:21] - Outgoing Response: /api/clients/query | Status: 200
+[INFO] [2024-10-17 14:36:21] - Response Time: 1 ms
+[INFO] [2024-10-17 14:41:55] - Incoming Request: GET /api/clients/query | Remote Address: 0:0:0:0:0:0:0:1
+[INFO] [2024-10-17 14:41:55] - Outgoing Response: /api/clients/query | Status: 200
+[INFO] [2024-10-17 14:41:55] - Response Time: 1 ms
+[INFO] [2024-10-17 14:49:39] - Incoming Request: GET /api/clients/query | Remote Address: 0:0:0:0:0:0:0:1
+[INFO] [2024-10-17 14:49:39] - Outgoing Response: /api/clients/query | Status: 200
+[INFO] [2024-10-17 14:49:39] - Response Time: 2 ms
+[INFO] [2024-10-17 14:56:30] - Incoming Request: GET /api/clients/query | Remote Address: 0:0:0:0:0:0:0:1
+[INFO] [2024-10-17 14:56:30] - Outgoing Response: /api/clients/query | Status: 200
+[INFO] [2024-10-17 14:56:30] - Response Time: 2 ms
