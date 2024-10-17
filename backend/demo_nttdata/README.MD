@@ -30,8 +30,8 @@ El servicio permite la consulta de clientes a través de un endpoint REST. Utili
 
 1. **Clonar el Repositorio**
    ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
-   cd tu-repositorio
+   git clone https://github.com/danny-palma/test_nttdata.git
+   cd test_nttdata
    ```
 
 2. **Instalar Dependencias**

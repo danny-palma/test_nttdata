@@ -1,3 +1,32 @@
+/**
+ * -------------------------------------------------------------------
+ *?Archivo: document-input.component.ts
+ *?Autor: Daniel Alejandro Palma Garcia
+ *?Correo: danielpalma2003@hotmail.com
+ *?Fecha: Octubre 2024
+ *?Empresa: NTT Data
+ *
+ *?Descripción:
+ * Este componente maneja la entrada de documentos de clientes en la
+ * aplicación Angular. Permite a los usuarios ingresar el tipo y
+ * número de documento, valida los datos y envía la solicitud al
+ * servicio correspondiente.
+ *
+ *?Funcionalidades:
+ * - Uso de reactive forms con validaciones para los campos de entrada.
+ * - Formatea el número de documento al introducirlo (separadores de miles).
+ * - Envío de los datos a través del servicio ClientService para
+ *   obtener información del cliente.
+ * - Redirección a la vista de resumen si la solicitud es exitosa.
+ * - Manejo de errores en caso de que la solicitud falle.
+ *
+ *?Dependencias:
+ * - FormBuilder: Para crear y gestionar el formulario reactivo.
+ * - Router: Para navegar entre diferentes vistas de la aplicación.
+ * - ClientService: Servicio para interactuar con la API del backend.
+ * -------------------------------------------------------------------
+ */
+
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';

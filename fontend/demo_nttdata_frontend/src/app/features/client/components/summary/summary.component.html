@@ -1,3 +1,22 @@
+<!--
+? Archivo: summary.component.html
+? Autor: Daniel Alejandro Palma Garcia
+? Correo: danielpalma2003@hotmail.com
+? Fecha: Octubre 2024
+? Empresa: NTT Data
+
+? Descripción:
+Este archivo contiene el template HTML para el componente de
+información básica del cliente en la aplicación Angular.
+Muestra los datos del cliente (apellido, nombre, teléfono,
+dirección y ciudad de residencia) en campos de texto deshabilitados,
+lo que significa que son solo de lectura.
+
+- `*ngIf="clientData"`: Verifica si hay datos del cliente disponibles antes de mostrar el formulario.
+- Cada campo está representado por un elemento `<input>` que toma su valor de `clientData`.
+- Incluye un botón "Volver" que llama a la función `goBack()` al hacer clic, permitiendo regresar a la pantalla anterior.
+-->
+
 <div
   class="container-sm border border-primary p-3 mt-5"
   style="max-width: 482px; background-color: #f7fbff"

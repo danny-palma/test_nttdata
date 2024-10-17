@@ -1,3 +1,18 @@
+/**
+ * -------------------------------------------------------------------
+ *?Archivo: client.module.ts
+ *?Autor: Daniel Alejandro Palma Garcia
+ *?Correo: danielpalma2003@hotmail.com
+ *?Fecha: Octubre 2024
+ *?Empresa: NTT Data
+ *
+ *?Descripción:
+ * Este archivo define el módulo Angular `ClientModule`, que se encarga
+ * de gestionar los componentes y la lógica relacionada con la
+ * funcionalidad de clientes en la aplicación.
+ * -------------------------------------------------------------------
+ */
+
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule } from '@angular/forms';
